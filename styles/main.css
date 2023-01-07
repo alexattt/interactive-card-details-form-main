@@ -158,6 +158,8 @@ main {
   font-size: 1.5rem;
   letter-spacing: 3px;
   margin-bottom: 20px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1250px) {
@@ -309,7 +311,7 @@ main {
   border: 1px solid #ff5252 !important;
 }
 
-.form-container input[type=submit], .container-visible input[type=submit] {
+.form-container input[type=submit], .form-container #confirm-btn, .container-visible input[type=submit], .container-visible #confirm-btn {
   outline: none;
   border: none;
   -webkit-box-sizing: border-box;
@@ -324,9 +326,10 @@ main {
   cursor: pointer;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  height: 40px;
 }
 
-.form-container input[type=submit]:hover, .container-visible input[type=submit]:hover {
+.form-container input[type=submit]:hover, .form-container #confirm-btn:hover, .container-visible input[type=submit]:hover, .container-visible #confirm-btn:hover {
   opacity: 0.9;
 }
 
@@ -382,7 +385,7 @@ input[type=number] {
   color: #8e8593;
 }
 
-.continue-container button {
+.continue-container #continue-btn {
   outline: none;
   border: none;
   -webkit-box-sizing: border-box;
@@ -398,9 +401,10 @@ input[type=number] {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   width: 100%;
+  height: 40px;
 }
 
-.continue-container button:hover {
+.continue-container #continue-btn:hover {
   opacity: 0.9;
 }
 

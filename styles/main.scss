@@ -128,6 +128,8 @@ main {
       font-size: 1.5rem;
       letter-spacing: 3px;
       margin-bottom: 20px;
+      color: $white;
+      text-decoration: none;
 
       @media screen and (max-width: 1250px) {
         font-size: 0.85em;
@@ -247,7 +249,7 @@ main {
     border: 1px solid $error-red !important;
   }
 
-  input[type=submit] {
+  input[type=submit], #confirm-btn {
     outline: none;
     border: none;
     box-sizing: border-box;
@@ -260,6 +262,7 @@ main {
     margin-top: 30px;
     cursor: pointer;
     transition: 0.2s;
+    height: 40px;
 
     &:hover {
       opacity: 0.9;
@@ -312,7 +315,7 @@ input[type=number] {
     color: $dark-violet;
   }
 
-  button {
+  #continue-btn {
     outline: none;
     border: none;
     box-sizing: border-box;
@@ -326,6 +329,7 @@ input[type=number] {
     cursor: pointer;
     transition: 0.2s;
     width: 100%;
+    height: 40px;
 
     &:hover {
       opacity: 0.9;
